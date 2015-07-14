@@ -3,8 +3,8 @@
 
 
 ####################################################################################################
-#	OpenTracker Aut-Installer v0.1								   #
-#	Support:admin@yify-torrents.com								   #
+#	OpenTracker Auto-Installer v0.2								   #
+#	Support:admin@yify-torrents.com	/ xelion.fr@gmail.com							   #
 #												   #
 #	This script is a free tool which automatically installs OpenTracker 			   #
 # 	for BitTorrent.										   #
@@ -19,6 +19,8 @@
 #												   #			
 #												   #
 #		               Written By: YIFY @ http://yify-torrents.com		 	   #
+#												   #
+#				Updated by Xelion @ http://xelion.fr				   #
 # 												   #			
 #												   #
 #    	How to instal using this script(run the following commands:				   #
@@ -183,10 +185,10 @@ $LinuxInstall cvs make gcc
 
 mkdir /etc/opentracker
 cd /etc/opentracker
-wget http://dl.fefe.de/libowfat-0.28.tar.bz2
-tar -jxvf libowfat-0.28.tar.bz2
-rm -f libowfat-0.28.tar.bz2
-mv libowfat-0.28 libowfat
+wget http://www.fefe.de/libowfat/libowfat-0.30.tar.xz
+tar xf libowfat-0.30.tar.xz
+rm -f libowfat-0.30.tar.xz
+mv libowfat-0.30 libowfat
 cd libowfat
 make
 make install
