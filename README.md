@@ -12,7 +12,7 @@ This script was originaly created by YIFY team on Google Code but no longer upda
 
 First, we clone the git :
 ``` 
-[sudo] git clone https://github.com/XelionXS/opentracker-auto-installer 
+git clone https://github.com/XelionXS/opentracker-auto-installer 
 cd opentracker-auto-installer
 ```
  
@@ -27,7 +27,7 @@ Launch the script :
 [sudo] ./opentracker-auto-installer.sh
 ```
   
-Follow all the script step and when it's done :
+Follow all the script steps and when it's done :
 ```
 Your announce URL :
 http://[IP]:[PORT]/announce or udp://[IP]:[PORT]/announce
