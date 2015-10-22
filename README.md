@@ -8,7 +8,7 @@ This script was originaly created by YIFY team on Google Code but no longer upda
 
 ### Installation instruction
 
-> Note you need admin access to install the script.
+> Note : you need admin access to install the script.
 
 First, we clone the git :
 ``` 
@@ -36,6 +36,6 @@ Your stats URL :
 http://[IP]:[PORT]/stats
 ```
 
-[Program webiste](http://erdgeist.org/arts/software/opentracker/)
+[Program website](http://erdgeist.org/arts/software/opentracker/)
 
 [Original code from Google Code](https://code.google.com/p/opentracker-auto-installer/)
